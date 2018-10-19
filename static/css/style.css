@@ -1,0 +1,145 @@
+
+body {
+  background-image: url("http://gowild.nl/shark_bg_gif");
+  background-size: cover;
+  text-decoration: none;
+  background:lightblue;
+}
+
+.chart1{
+
+width:100%;
+  margin-left:  auto;  
+  margin-right: auto;
+    
+    
+}
+.skTitle{
+   font-family: 'Rozha One', serif;
+   font-size:3em;
+   letter-spacing: 7px;
+   color: gold;
+  
+   
+
+}
+.skSubTitle{
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 1em;
+    text-transform: lowercase;
+    color: #fff;
+}
+
+.skMiniTitle{
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 1.6em;
+    text-transform: lowercase;
+    color: grey;
+}
+
+
+.graphContA{
+    position:relative;
+    width:1024px;
+    background-color: black;
+
+}
+
+.graphContB{
+    position:relative;
+    top:0;
+    dislay:inline-block;
+    position:relative;
+    height:400px;
+    width:600px;
+    margin-left:50px;
+    margin-top:20px;
+    padding:20px;
+    background-color:rgba(255,255,255,0.5);
+    border-radius:10px;
+    
+}
+
+.graphContC{
+    position:relative;
+    top:-410px;
+    display:inline-block;
+    height:400px;
+    left:650px;
+    margin-right:50px;
+    width:1000px;
+    margin-top:20px;
+    padding:20px;
+    background-color:rgba(255,255,255,0.5);
+    border-radius:10px;
+}
+.header{
+    
+    display:inline-block;
+    margin:0 !important;
+    top:0;
+    padding:20;
+    height:50;
+    width:100%;
+    background-color: black;
+    text-align: center;
+}
+.row1{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius:10px;
+    border: solid thin ;
+    border-color: #000000;
+    border-radius-top: 10px;
+    min-height: 360px;
+    text-align: center;
+    background-color:rgba(255,255,255,0.5); 
+    
+}
+
+.row2{
+    margin-top: -2px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius-bottom:10px;
+    border: solid thin ;
+    border-color: #000000;
+    border-radius-top: 10px;
+    min-height: 360px;
+    text-align: center;
+    background-color:rgba(255,255,255,0.5); 
+    padding-bottom: 50px;
+    
+}
+
+#shark-attacks-chart-region{
+ text-align:center;
+ margin-left:auto;
+ margin-right:auto;
+
+    
+}
+
+rect {
+  transform: rotate(45deg) rotate(-45deg);
+  transform-origin: 50% 50%; /* Chrome, Firefox behaves differently */
+}
+
+
+
+
+
+/*@media (min-aspect-ratio: 16/9) {*/
+/*  .video-foreground { height: 300%; top: -100%; }*/
+/*}*/
+/*@media (max-aspect-ratio: 16/9) {*/
+/*  .video-foreground { width: 300%; left: -100%; }*/
+/*}*/
+/*@media all and (max-width: 600px) {*/
+/*.vid-info { width: 50%; padding: .5rem; }*/
+/*.vid-info h1 { margin-bottom: .2rem; }*/
+/*}*/
+/*@media all and (max-width: 500px) {*/
+/*.vid-info .acronym { display: none; }*/
+/*}*/
