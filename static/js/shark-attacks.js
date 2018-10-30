@@ -13,7 +13,7 @@ queue()
             var name_dim = ndx.dimension(dc.pluck('Country'));
             var casulaties = name_dim.group().reduceSum(dc.pluck('Total Number of Attacks'));
     
-            dc.barChart("#shark-attacks-chart-region")
+            dc.barChart("#shark-attacks-chart-country")
             
             .width(1700)
             .height(600)
@@ -48,8 +48,8 @@ queue()
         var name_dim = ndx.dimension(dc.pluck('World Region'));
         var casulaties = name_dim.group().reduceSum(dc.pluck('Total Number of Attacks'));
         
-        dc.barChart("#shark-attacks-chart-country")
-            .width(1024)
+        dc.barChart("#shark-attacks-chart-region")
+            .width(1000)
             .height(300)
             .margins({top: 0, right: 50, bottom: 50, left: 50})
             .dimension(name_dim)
