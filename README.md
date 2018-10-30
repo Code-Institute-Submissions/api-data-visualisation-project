@@ -1,6 +1,8 @@
 
 ## Shark Facts
 #### by Steve Bolton
+https://steviebolton.github.io/api-data-visualisation-project/
+It is possible you may have to zoom in or out depending on which screen resoluton you are using.
 
 The stories we hear about sharks are numerous and more often than not they teach us to be afraid of Sharks.
 But just how afraid should we be. Should we believe any of the stories? Making scary films about sharks has become a multi million dollar industry. The truth is people are very seldom attacked by Sharks. Sharks normaly feed on fish how ever occasionally Sharks have been spotted close to the coast sometimes in bathing areas, some say it may have to do with the rise in temperature. What ever we want to believe it is worth taking a look at real statistics. With a few searches we were able to find some data here:
@@ -30,6 +32,14 @@ Html, CSS, javascript libraries: dc and d3.
 
 I wrote the CSS to create the dashboard. It has only been tested on a google browser. Note this dash board is not intended to be responsive.
 The background image was edited in photoshop by yours truly (that is me by the way).
+
+#### Deployment
+Shark Facts - dash board was deployed on github pages, information about this can be found here:
+https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/
+#### Tests
+This page reaches the full requirements of w3.org
+https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fsteviebolton.github.io%2Fapi-data-visualisation-project%2F
+it has also been checked using Google developer tools.
 
 ### Credits
 Thankyou Code Institute and especially to Mr. Richard Dalton and Mr. Matt Rudge.
