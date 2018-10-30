@@ -1,41 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=§, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="static/css/style.css" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet">   
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/dc/2.1.8/dc.min.css"/>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/dc/2.1.8/dc.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
-    <script type="text/javascript" src="static/js/shark-attacks.js"></script>
     <title>Shark Attacks</title>
-<style>
-	g .x.axis text {
-    text-anchor: end !important; 
-    transform: rotate(-45deg);
-}
-</style>
+    <link rel="stylesheet" href="static/css/style.css" type="text/css" >
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/dc/2.1.8/dc.min.css">
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.min.js"></script>
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/dc/2.1.8/dc.js"></script>
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
+    <script  src="static/js/shark-attacks.js"></script>
+
 </head>
 <body>
-  
-  
-        <div class="graphContA">
-           Total number of shark attacks around the world<hr>
-        <div id="shark-attacks-chart-region"></div>
-        
-        <div class="row2">
-            <div class="graphContB">
-                Attacks per world Region<hr>
-            <div id="pie-chart"></div>
+ 
+<div class="sharkHead">SHARK FACTS</div>
             
-            <div class="graphContC">
-              Total number of non fatalities per region<hr>
-            <div id="shark-attacks-chart-country"></div> 
-   
+    <div class="chartA">
+        <div class="sharkBody">
+            <div class="majorTitle">Total number of<br/>shark attacks around the world since 1503</div>
+                 <p>Most shark attacks occur less than a 100 feet from the shore mainly around popularbeaches in <strong>North America <br/></strong>(especially <strong>Florida and Hawaii), Australia, and South Africa.</strong><br/><br/>
+                           The odds of being killed by a shark are one in 3.7 million.<br/><br/>These graphs show the occurance of shark attacks in each country/region. By clicking on the pie chart you the can see the bar charts filter out other information.<br/></p>
+          
+                     <div class="leftabit"><a href="javascript:dc.filterAll(); dc.renderAll();">RESET</a></div>
+        </div>
+                        <div id="shark-attacks-chart-region">
+    </div></div>
+            
 
+            <div class="row2">
+            <div class="chartB">
+                <div class="subTitle">Attacks per world Region</div><hr>
+            <div id="pie-chart"></div>
+
+            <div class="africa">
+                - 3 - A F R I C A - <br/>
+                Algeria | Angola | Benin | Cameroon | Cape Verde <br/> 
+                Comoros | Côte d’Ivoire | Djibouti | Dem. Rep. Congo <br/> 
+                Egypt | Equatorial Guinea | Eritrea | Gabon<br/>
+                Country | Gambia | Ghana | Guinea | Guinea-Bissau | Kenya <br/> 
+                Liberia | Libya | Madagascar | Mauritania | Mauritius <br/> 
+                Morocco | Mozambique | Namibia | Nigeria | Republic of the Congo<br/> 
+                São Tomé and Príncipev | Senegal | Seychelles | Sierra Leone <br/> 
+                Somalia | South Africa | Sudan | Tanzania | Togo | Tunisia.
+            </div>
+            
+            <div class="northAmerica">
+                 - 1 - N O R T H  A M E R I C A -<br/>  
+                Antigua and Barbuda | Bahamas | Barbados | Belize <br/> Canada | Costa Ric
+                Cuba | Dominica | Dominican Republic <br/>El Salvador Grenada | Guatemala
+                Haiti | Honduras | Jamaica | Mexico <br/> Nicaragua | Panama | Saint Kitts and Nev
+                Saint Lucia <br/> Saint Vincent and the Grenadines | Trinidad and Tobago <br/>United States of America (USA)
+            </div>
+            <div class="oceania">
+                - 2 - O C E A N I A - <br/>            
+                American Samoa | Australia | Christmas Island Christmas Island<br/> 
+                Cook Islands Cook Islands | Fiji | French Polynesia | Guam<br/> 
+                Kiribati | Marshall Islands | Federated States of Micronesia<br/>
+                Nauru | New Zealand.
+            </div>
+            </div>
+            
+           
+            
+            <div class="chartC">
+              <div class="subTitle">Total number of non fatalities per region</div><hr>
+               <div class="instructions">
+                <strong>Have fun...</strong><br>
+                By clicking on the bar chart you will be able to view other 
+                the data dymamically.
+                Above you can reset the graphs to default.
+            </div>
+            <div id="shark-attacks-chart-country"></div> 
+</div> </div> 
 </body>
 </html>

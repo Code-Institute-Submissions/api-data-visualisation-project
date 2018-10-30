@@ -1,59 +1,122 @@
+	g .x.axis text {
+    text-anchor: end !important; 
+    transform: rotate(-45deg);
+}
 
+
+
+.majortTitle:{
+  font-size: 1em;
+}
+
+.sharkHead{
+    position: fixed;
+    z-index:1;
+    top:0px;
+    width:166%;
+    margin-left: -33%;
+    margin-right: -33%;
+    margin-bottom: 30px;
+    height:50px;
+    background-color:black;
+    color:gold;
+    font-family: sans-serif;
+    font-size:1em;
+    letter-spacing: 30pt;
+    padding-top: 30px;
+}
+
+.sharkBody{
+   position:absolute;
+   width:400%; 
+   height:200px;
+   width:100%;
+   margin: 0 auto ;
+   
+  
+}
+
+.majorTitle{
+    font-family: sans-serif;
+    font-size:2em;
+    letter-spacing:4pt;
+
+}
 body {
-  background-image: url("/static/images/sharks.gif");
+  background-image: url("http://www.gowild-advertising.nl/data-vis/static/images/sharks.gif");
   background-size: cover;
   text-decoration: none;
   text-align: center;
-  background:lightblue;
-   
+
+}
+
+p{
+font-size:1em;
+font-family: sans-serif;
+margin-left:30%;
+margin-right:30%;
+letter-spacing:2pt;
 }
 
 
-
-.largeContainer{
-    margin: 0 auto;
-    width:1705px;
-    border-radius:20px;
-    border: thin solid;
-    border-color: black;
+a{  position:absolute;
+    box-shadow: #2077b4 2px 2px;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    border: thin solid #2077b4;
+    background-color:#9ac2cd ;
+    font-family: sans-serif;
+    font-size:10px;
+    letter-spacing: 3px;
+    color: #2077b4;
+    line-height: 50px;
+    text-decoration: none;
+    padding:3px;
+    text-align: center;
 }
 
+.leftabit{
+    display:inline-block;
+    width:70px;
+    padding-right:50px;
+    background-color: red;
+    margin:0, auto;
+}
 
-
-.graphContA{
+.chartA{
     position:relative;
     display:inline-block;
-    position:relative;
+    top:30px;
     height:600px;
     width:1670px;
     margin-left:20px;
-    margin-top:20px;
+    margin-top:70px;
     padding-top: 20px;
     padding-top: 20px;
     background-color:rgba(255,255,255,0.5);
     border-radius:10px;
 }
 
-.graphContB{
+.chartB{
     position:absolute;
-    top:0;
-    height:380px;
-    width:550px;
-    margin-left:0px;
+    top:750px;
+    height:360px;
+    width:570px;
+    margin-left:10px;
     margin-top:0px;
-    padding-left: 50px;
-    padding-top: 20px;
+    padding: 20px;
     background-color:rgba(255,255,255,0.5);
     border-radius:10px;
     
 }
 
-.graphContC{
+.chartC{
     position:absolute;
-    top:0px;
+    top:750px;
     height:360px;
-    left:0px;
-    margin-left:630px;
+  
+    margin-left:640px;
     width:1000px;
     padding:20px;
     background-color:rgba(255,255,255,0.5);
@@ -63,31 +126,98 @@ body {
 .row1{
 margin-left:auto;
 margin-right:auto;
-width:1670;
+width:1670px;
 height:1000px;
 }
 
 .row2{
-    position:relative;
-    top:600px;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 50px;
+    top:45px;
+    margin-left:auto;
+    margin-right:auto;
+    width:1670px;
+    margin-left: 0, auto;
     border-radius-bottom:10px;
     border-radius-top: 10px;
     min-height: 360px;
-    background-image: url("");
     padding-bottom: 50px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+   
 }
 
 
 
-rect {
-  transform: rotate(45deg) rotate(-45deg);
-  transform-origin: 50% 50%; /* Chrome, Firefox behaves differently */
+
+
+.subTitle{
+   
+  font-family: sans-serif;
+  font-size: 1em;
+  color:black;
+    
+}
+
+#pie-chart{
+    z-index:3;
+    margin-top: 15px;
+    margin-left: 15px;
+    
+}
+
+#shark-attacks-chart-region{
+    z-index:5;
+    margin-top: 15px;
+
+    
+}
+
+#shark-attacks-chart-country{
+    z-index:2;
+    margin-top: 25px; 
+
+    
+}
+
+
+.africa{
+    position:absolute;
+    top:220px;
+    margin-left: 330px;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 0.5em;
+}
+
+.oceania{
+    top:160px;
+    position:absolute;
+    margin-left: 330px;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    magin_bottom:20px;
+}
+
+.northAmerica{
+    position:absolute;
+    top:85px;
+    margin-left: 330px;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 0.5em;
+}
+
+.instructions{
+    z-index:2;
+    position:absolute;
+    top:85px;
+    margin-left: 150px;
+    font-family: sans-serif;
+    font-size: 0.7em; 
+    line-height:2em;
+    text-align: center;
+    width:300px;
+    letter-spacing:2pt;
+    color: black;
+    
 }
 
 
