@@ -188,6 +188,9 @@ body {
     font-size:1em;
     color:white;
     font-family: sans-serif;
+    background-color:black;
+    width:1024px;
+    margin: auto;
 }
 
 
