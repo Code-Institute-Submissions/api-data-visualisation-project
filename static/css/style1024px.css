@@ -1,6 +1,7 @@
 	g .x.axis text {
     text-anchor: end !important; 
     transform: rotate(-45deg);
+    font-size:0.5em;
 }
 
 a{
@@ -20,18 +21,18 @@ a{
     margin-left: -33%;
     margin-right: -33%;
     margin-bottom: 30px;
-    height:50px;
+    height:30px;
     background-color:black;
     color:gold;
     font-family: sans-serif;
-    font-size:1em;
+    font-size:0.8em;
     letter-spacing: 30pt;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 .sharkBody{
    position:absolute;
-   width:400%; 
+   width:600%; 
    height:200px;
    width:100%;
    margin: 0 auto ;
@@ -39,8 +40,8 @@ a{
 
 .majorTitle{
     font-family: sans-serif;
-    font-size:2em;
-    letter-spacing:4pt;
+    font-size:1.2em;
+    letter-spacing:3pt;
 }
 
 body {
@@ -51,32 +52,34 @@ body {
 }
 
     p{
-    font-size:1em;
+    font-size:0.8em;
     font-family: sans-serif;
-    margin-left:30%;
-    margin-right:30%;
-    letter-spacing:2pt;
+    margin-left:15%;
+    margin-right:15%;
+    letter-spacing:0.5pt;
+
     }
 
-.resetBtn{  
-    position:absolute;
-    width:50px;
-    height:50px;
+.resetBtn{  position:relative;
+    width:40px;
+    height:40px;
+    margin:  auto;
     border-radius:50%;
-    border: thick solid #2077b4;
+    border: 2pt solid #2077b4;
     background-color:#9ac2cd ;
     font-family: sans-serif ;
     font-weight: bold;
-    font-size:10px;
+    font-size:0.5em;
     letter-spacing: 3px;
     color: #2077b4;
-    line-height: 50px;
+    line-height: 40px;
     text-decoration: none;
-    padding:3px;
+    padding:5px;
     text-align: center;
 }
 
 .leftabit{
+    position:relative;
     display:inline-block;
     width:70px;
     padding-right:50px;
@@ -87,41 +90,42 @@ body {
 .chartA{
     position:relative;
     display:inline-block;
-    top:20px;
-    height:600px;
-    width:1660px;
+    top:0px;
+    height:420px;
+    width:1024px;
     margin-left:0px;
     margin-top:70px;
     margin-bottom: 30px;
+    padding-top:20px;
     background-color:rgba(255,255,255,0.5);
     border-radius:10px;
 }
 
 .chartB{
     position:relative;
-    top:0px;
-    height:360px;
-    width:580px;
+    top:-20px;
+    height:300px;
+    width:475px;
     margin-left:0px;
     margin-top:0px;
-    padding: 20px;
+    padding: 10px;
     background-color:rgba(255,255,255,0.5);
     border-radius:10px;
 }
 
 .chartC{
     position:relative;
-    top:-400px;
-    height:360px;
-    margin-left:640px;
-    width:980px;
-    padding:20px;
+    top:-340px;
+    height:300px;
+    margin-left:510px;
+    width:495px;
+    padding:10px;
     background-color:rgba(255,255,255,0.5);
     border-radius:10px;
 }
     .row2{
     top:200px;
-    width:1660px;
+    width:1024px;
     margin-left:auto;
     margin-right:auto;
     border-radius-bottom:10px;
@@ -139,12 +143,13 @@ body {
 #shark-attacks-chart-country{
     z-index:2;
     margin-top: 20px; 
+    magin-left:30px
 }
 
 #pie-chart{
     z-index:3;
     margin-top: 20px;
-    margin-left: 7px;
+    width:240px;
 }
 
 #shark-attacks-chart-region{
@@ -156,31 +161,30 @@ body {
 .topThree{
     position:absolute;
     top:85px;
-    margin-left: 320px;
+    margin-left: 240px;
     text-align: left;
     font-family: sans-serif;
     font-size: 0.4em;
     line-height:1.3em;
-    padding-right:5px;
+    padding-right:20px;
 }
 
 .instructions{
-    z-index:2;
+    z-index:5;
     position:absolute;
     top:85px;
-    margin-left: 150px;
+    margin-left: 65px;
     font-family: sans-serif;
     font-size: 0.7em; 
-    line-height:2em;
+    line-height:1.3em;
     text-align: center;
-    width:300px;
-    letter-spacing:2pt;
+    width:200px;
+    letter-spacing:0.3pt;
     color: black;
 }
-
 .zoomin{
     position: relative;
-    top:80px;
+    top:60px;
     font-size:1em;
     color:white;
     font-family: sans-serif;
